@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 14 | Daily Form -Contact Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <div id="msg-icon">
+          <i class="fa-regular fa-envelope fa-2x" style="color: #ffffff;"></i>
+        </div>
+        <p>Please describe your product idea in a nutshell</p>
+        <p>We need your email to reach your back</p>
+      </div>
+      <div class="right-side">
+        <h1>Hire Us</h1>
+        <label for="msg">Message</label>
+        <textarea class="message" id="msg" placeholder="Hi,I need a quote for the finance messanger project. The idea is very simple -- you can chat with friends and banks same as you chat with poeple, plus you can do all basic internet banking commands right in chat."></textarea>
+        <div class="user-details">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" required placeholder="Michael Morris"/>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" required placeholder="getmichal@info.com"/>
+          </div>
+        </div>
+        <div class="buttons">
+          <input type="reset" value="Cancel" id="cancel" />
+          <input type="submit" value="Send" id="send" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

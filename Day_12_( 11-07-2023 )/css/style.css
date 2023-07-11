@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;600;900&family=Roboto:wght@400;500;700&display=swap");
+/* font-family: 'Lobster', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.cards {
+  width: calc(900px - 30px);
+  height: 465px;
+  display: flex;
+  /* background-color: red; */
+
+}
+.card {
+  width: 270px;
+  height: 100%;
+  background-color: #fff;
+  margin-right: 25px;
+  position: relative;
+  z-index: 99;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card .card_heading {
+  width: 100%;
+  height: 40px;
+}
+.card .card_heading h4 {
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.card1 .card_heading,
+.card .card_content .btn button {
+  background-color: #ff9233;
+}
+.card2 .card_heading,
+.card2 .card_content .btn button {
+  background-color: #9d237a;
+}
+.card3 .card_heading,
+.card3 .card_content .btn button {
+  background-color: #59186a;
+}
+.card_content {
+  text-align: center;
+  font-size: 18px;
+  padding: 0px 6px;
+}
+.card_content .price {
+  width: 100%;
+  /* background-color: blue; */
+  font-size: 17px;
+  padding: 15px 0px 10px;
+  color: #575555e6;
+  border-bottom: 1px solid #7b80861e;
+}
+.card_content .price span {
+  font-size: 22px;
+  color: black;
+}
+.card_content .eligible {
+  width: 100%;
+  height: 280px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 11px;
+  margin-top: 18px;
+}
+.eligible p {
+  width: 100%;
+  border-bottom: 1px solid #7b808611;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-bottom: 5px;
+  color: #848383b3;
+}
+.eligible p.tick {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.78);
+}
+.eligible p.tick::before {
+  content: "\2713";
+  color: rgb(8, 232, 53);
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 3px;
+  line-height: 14px;
+}
+.eligible p.wrong::before {
+  content: "\00D7";
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 2px;
+}
+.card_content .btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.btn button {
+  padding: 6px 25px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: red;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+.top_style {
+  width: 200px;
+  height: 200px;
+  background-color:#FCB678 ;
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.bottom_style{
+    width: 200px;
+    height: 200px;
+    background-color:#92669B ;
+    position: absolute;
+    bottom:-100px;
+    right:-100px;
+    transform: rotate(45deg);
+    z-index: 7;
+  }
+  
+

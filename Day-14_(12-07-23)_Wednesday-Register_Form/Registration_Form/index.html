@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 14 | Register Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="Reg_form">
+        <form action="#" class="form">
+          <div class="heading">
+            <h2>registration</h2>
+          </div>
+          <div class="input_fields">
+            <div class="input_group">
+              <div class="input_set">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name" />
+              </div>
+              <div  class="input_set">
+                <label for="uname">Username</label>
+                <input type="text" id="uname" placeholder="Enter your username" />
+              </div>
+            </div>
+            <div class="input_group">
+              <div  class="input_set">
+                <label for="mail">Email</label>
+                <input type="mail" id="mail" placeholder="Enter your mail" required />
+              </div>
+              <div  class="input_set">
+                <label for="number">Phone Number</label>
+                <input type="text" id="number" placeholder="Enter your number" />
+              </div>
+            </div>
+            <div class="input_group">
+              <div class="input_set" >
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" />
+              </div>
+              <div class="input_set">
+                <label for="cpassword">Confirm Password</label>
+                <input type="password" id="cpassword" placeholder="Confirm your password" />
+              </div>
+            </div>
+          </div>
+          <div class="gender">
+            <h2>Gender</h2>
+            <label for="male">
+              <input type="radio" name="" id="male" value="male" /><span>Male</span>
+            </label>
+            <label for="female">
+              <input type="radio" name="" id="female" value="female" /><span>Female</span>
+            </label>
+            <label for="other">
+              <input type="radio" name="" id="other" value="other" /><span>Prefer not to say</span>
+            </label>
+          </div>
+          <div class="btn">
+            <input type="submit" value="Register" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
